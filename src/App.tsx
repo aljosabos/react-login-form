@@ -5,7 +5,7 @@ import { ProtectedRoute } from "./routes/ProtectedRoute/ProtectedRoute";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/react-login-form">
       <Routes>
         <Route path="/login" element={<Login />} />
         <Route
